@@ -1,4 +1,6 @@
 Rails.application.configure do
+  config.action_mailer.default_url_options = { host: 'https://the-bookstore-fatimaahmed64.c9users.io'}
+  Paperclip.options[:command_path] = "/usr/local/bin/"
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
